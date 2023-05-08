@@ -158,10 +158,12 @@
   cursor: pointer;
   font-weight: 700;
 }
-.add-cart-btn > img {
+.add-cart-btn img {
   background-color: #ff7d1b;
   margin: 0 5px;
-  color: #fff;
+  fill: white;
+  /* filter: invert(100%); */
+  /* color: #fff; */
 }
 .arrow-buttons {
   display: none;
@@ -244,14 +246,14 @@
   .add-product-count,
   .add-cart-btn {
     flex: 1;
-    display: flex
+    display: flex;
     /* width: 90%; */
   }
   .add-product-count {
     /* margin: 10px 0; */
     width: 100%;
   }
-  .add-cart-btn{
+  .add-cart-btn {
     display: flex;
     align-items: center;
     justify-content: center;
